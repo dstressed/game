@@ -1,8 +1,8 @@
 module.exports = {
-    entry: './js/main.js',
+    entry: './js/client.js',
     output: {
         path: __dirname + '/js',
-        filename: 'bundle.js'
+        filename: 'index.js'
     },
     devServer: {
         inline: true,
